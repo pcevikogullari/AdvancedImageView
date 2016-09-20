@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="AdvancedImageView">
+        <attr name="url" format="string" />
+        <attr name="type" format="enum">
+            <enum name="portrait" value="0"/>
+            <enum name="square" value="1"/>
+            <enum name="landscape" value="2"/>
+        </attr>
+        <attr name="library" format="enum">
+            <enum name="glide" value="0" />
+            <enum name="picasso" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
